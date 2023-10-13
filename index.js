@@ -9,8 +9,9 @@ const questions = [
     "Enter a description for your application: ",
     "Enter installation instructions: ",
     "Enter your usage instructions: ",
+    "Enter an img link of a screenshot for your application: ",
     "Please choose a license: ",
-    "Include any contributors: ",
+    "Enter how to contribute: ",
     "Include any tests: ",
     "Enter your GitHub username: ",
     "Enter your email address: "
@@ -18,7 +19,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
+    fs.writeFile(fileName, generateMarkdown(data), (err) =>
         err ? console.error(err) : console.log('Success!')
     );
 }
