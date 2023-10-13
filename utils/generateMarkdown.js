@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
       return "[License: ISC](https://opensource.org/license/isc-license-txt/)";
     case 'IBM':
       return "[License: IPL 1.0](https://opensource.org/license/ibmpl-php/)";
-    case '':
+    case 'N/A':
       return '';
   }
 }
