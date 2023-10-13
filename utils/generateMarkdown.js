@@ -66,6 +66,8 @@ ${renderLicenseSection(data.license)}
 ${data.contribute}
 ## Tests
 ${data.tests}
+## Questions
+Please contact me, either on my [Github](https://github.com/${data.username}) or my [email](mailto:${data.email})
 `;
 }
 
