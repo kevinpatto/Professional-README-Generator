@@ -52,12 +52,11 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
-- [Tests](#tests)
 ## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
+
 ![Screenshot to application](${data.usageImage})
 ## Credits
 ${data.credits}
